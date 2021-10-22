@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_reversePolishNotation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ram_pkg" />
+            <top_module name="tb_reversePolishNotation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9739919fs"></ZoomStartTime>
+      <ZoomEndTime time="10607920fs"></ZoomEndTime>
+      <Cursor1Time time="10060919fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="101"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_reversePolishNotation/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dIn" type="logic">
+      <obj_property name="ElementShortName">dIn</obj_property>
+      <obj_property name="ObjectShortName">dIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dOut" type="logic">
+      <obj_property name="ElementShortName">dOut</obj_property>
+      <obj_property name="ObjectShortName">dOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/data8" type="array">
+      <obj_property name="ElementShortName">data8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/refData" type="array">
+      <obj_property name="ElementShortName">refData[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">refData[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dataCaptured" type="array">
+      <obj_property name="ElementShortName">dataCaptured[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataCaptured[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/errorCnt" type="array">
+      <obj_property name="ElementShortName">errorCnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errorCnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/checkCnt" type="array">
+      <obj_property name="ElementShortName">checkCnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">checkCnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/GAP" type="array">
+      <obj_property name="ElementShortName">GAP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GAP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dut/douta" type="array">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dut/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dut/addra" type="array">
+      <obj_property name="ElementShortName">addra[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dut/First_Number" type="array">
+      <obj_property name="ElementShortName">First_Number[7:0]</obj_property>
+      <obj_property name="ObjectShortName">First_Number[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_reversePolishNotation/dut/Second_Number" type="array">
+      <obj_property name="ElementShortName">Second_Number[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Second_Number[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/recep/Desktop/Transvaro/RFN/RFN.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/recep/Desktop/Transvaro/rtl/Block_Ram_Inference_Method.vhd,1625064801,vhdl,C:/Users/recep/Desktop/Transvaro/rtl/RFN_Module.vhd,,,block_ram;ram_pkg,,,,,,,,
+C:/Users/recep/Desktop/Transvaro/rtl/RFN_Module.vhd,1625160106,vhdl,,,,reversepolishnotation,,,,,,,,
+C:/Users/recep/Desktop/Transvaro/rtl/tb_reversePolishNotation.v,1624437525,verilog,,,,tb_reversePolishNotation,,,,,,,,

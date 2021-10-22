@@ -1,0 +1,101 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xczu7ev-ffvc1156-2-e",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1"
+    },
+    "design_tree": {
+      "v_hdmi_tx_ss_0": ""
+    },
+    "components": {
+      "v_hdmi_tx_ss_0": {
+        "vlnv": "xilinx.com:ip:v_hdmi_tx_ss:3.1",
+        "xci_name": "design_1_v_hdmi_tx_ss_0_0",
+        "interface_ports": {
+          "LINK_DATA0_OUT": {
+            "mode": "Master",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "LINK_DATA1_OUT": {
+            "mode": "Master",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "LINK_DATA2_OUT": {
+            "mode": "Master",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "DDC_OUT": {
+            "mode": "Master",
+            "vlnv": "xilinx.com:interface:iic_rtl:1.0"
+          },
+          "S_AXI_CPU_IN": {
+            "mode": "Slave",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "memory_map_ref": "S_AXI_CPU_IN",
+            "parameters": {
+              "ADDR_WIDTH": {
+                "value": "17"
+              },
+              "DATA_WIDTH": {
+                "value": "32"
+              },
+              "PROTOCOL": {
+                "value": "AXI4LITE"
+              }
+            }
+          },
+          "AUDIO_IN": {
+            "mode": "Slave",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "SB_STATUS_IN": {
+            "mode": "Slave",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          },
+          "VIDEO_IN": {
+            "mode": "Slave",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
+          }
+        },
+        "addressing": {
+          "memory_maps": {
+            "S_AXI_CPU_IN": {
+              "address_blocks": {
+                "Reg": {
+                  "base_address": "0x00000",
+                  "range": "128K",
+                  "width": "17",
+                  "usage": "register",
+                  "bank_blocks": {
+                    "reg0;/v_hdmi_tx/S_AXI/reg0;xilinx.com:ip:v_hdmi_tx:3.0;/v_hdmi_tx;S_AXI;NONE;NONE": {
+                      "base_address": "0x00000",
+                      "range": "64K",
+                      "width": "16",
+                      "usage": "register"
+                    },
+                    "reg1;/v_tc/ctrl/Reg;xilinx.com:ip:v_tc:6.1;/v_tc;ctrl;NONE;NONE": {
+                      "base_address": "0x10000",
+                      "range": "64K",
+                      "width": "16",
+                      "usage": "register"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "interface_ports": {
+            "S_AXI_CPU_IN": {
+              "mode": "Slave",
+              "memory_map_ref": "S_AXI_CPU_IN"
+            }
+          }
+        }
+      }
+    }
+  }
+}

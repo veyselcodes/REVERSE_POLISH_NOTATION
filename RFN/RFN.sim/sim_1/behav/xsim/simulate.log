@@ -1,0 +1,6 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+*** SUCCESS *** Simulation finished at time=9350 -> no error
+$stop called at time : 9350 ns : File "C:/Users/recep/Desktop/Transvaro/rtl/tb_reversePolishNotation.v" Line 68
+*** SUCCESS *** Simulation finished at time=9350 -> no error
+$stop called at time : 9350 ns : File "C:/Users/recep/Desktop/Transvaro/rtl/tb_reversePolishNotation.v" Line 68

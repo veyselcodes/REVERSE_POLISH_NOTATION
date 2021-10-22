@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/recep/Desktop/Transvaro/rtl/tb_reversePolishNotation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_reversePolishNotation
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/recep/Desktop/Transvaro/rtl/Block_Ram_Inference_Method.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'block_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/recep/Desktop/Transvaro/rtl/RFN_Module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reversePolishNotation'

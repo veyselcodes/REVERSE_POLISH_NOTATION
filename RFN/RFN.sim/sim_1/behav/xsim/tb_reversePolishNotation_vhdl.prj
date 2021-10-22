@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../rtl/Block_Ram_Inference_Method.vhd" \
+"../../../../../rtl/RFN_Module.vhd" \
+
+# Do not sort compile order
+nosort
